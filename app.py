@@ -16,11 +16,11 @@ def meny():
 @app.route('/varer')
 def varer():
     return render_template("varer.html")
-"""
+
 @app.route('/kontakt')
 def kontakt():
     return render_template("kontakt.html")
-"""
+
 
 
 
